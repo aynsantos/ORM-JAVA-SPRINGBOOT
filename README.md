@@ -50,11 +50,11 @@ INSERT INTO tb_employee(name, salary, department_id) VALUES ('Antonio', 5000.0, 
 ## Banco de dados criado e dados inseridos tudo atraves do framework
 
 <h1 align="center">
-   <img alt="tb_department" title="tb_department" src="./images/tb_department.jpeg">
+   <img alt="tb_department" title="tb_department" src="./img/tb_department.jpeg">
 </h1>
 
 ___
 
 <h1 align="center">
-   <img alt="tb_employee" title="tb_employee" src="./images/tb_employee.jpeg">
+   <img alt="tb_employee" title="tb_employee" src="./img/tb_employee.jpeg">
 </h1>
