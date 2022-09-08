@@ -22,7 +22,7 @@ A entidade "Employee" vai ter uma chave estrangeira(foreign key)  chamada "depar
 atributo de nossa entidade "Department".
 
 ## Configurando banco de dados h2 (application.properties)
-
+```
 # Dados de conexão com o banco H2
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.username=sa
@@ -31,9 +31,10 @@ spring.datasource.password=
 # Configuração do cliente web do banco H2
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
+```
 
 ## Seed da base de dados (import.sql)
-
+```sql
 INSERT INTO tb_department(name) VALUES ('Vendas');
 INSERT INTO tb_department(name) VALUES ('Marketing');
 INSERT INTO tb_department(name) VALUES ('TI');
@@ -43,3 +44,4 @@ INSERT INTO tb_employee(name, salary, department_id) VALUES ('Pedro', 5000.0, 3)
 INSERT INTO tb_employee(name, salary, department_id) VALUES ('Ana', 7000.0, 3);
 INSERT INTO tb_employee(name, salary, department_id) VALUES ('Carlos', 6000.0, 1);
 INSERT INTO tb_employee(name, salary, department_id) VALUES ('Antonio', 5000.0, 2);
+```
