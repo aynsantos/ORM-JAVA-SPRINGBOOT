@@ -34,6 +34,7 @@ spring.h2.console.path=/h2-console
 ```
 
 ## Seed da base de dados (import.sql)
+
 ```sql
 INSERT INTO tb_department(name) VALUES ('Vendas');
 INSERT INTO tb_department(name) VALUES ('Marketing');
@@ -45,3 +46,15 @@ INSERT INTO tb_employee(name, salary, department_id) VALUES ('Ana', 7000.0, 3);
 INSERT INTO tb_employee(name, salary, department_id) VALUES ('Carlos', 6000.0, 1);
 INSERT INTO tb_employee(name, salary, department_id) VALUES ('Antonio', 5000.0, 2);
 ```
+
+## Banco de dados criado e dados inseridos tudo atraves do framework
+
+<h1 align="center">
+   <img alt="tb_department" title="tb_department" src="./images/tb_department.jpeg">
+</h1>
+
+___
+
+<h1 align="center">
+   <img alt="tb_employee" title="tb_employee" src="./images/tb_employee.jpeg">
+</h1>
